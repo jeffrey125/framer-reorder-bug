@@ -17,25 +17,14 @@ html {
   font-family: 'Rubik', sans-serif;
 }
 
-.spacer {
-  aspect-ratio: 960/300;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.lightBG {
-  background-image: url('./assets/svg-light-bg.svg');
-}
-.darkBG {
-  background-image: url('./assets/svg-dark-bg.svg');
-}
-
-.todoCheck {
-  text-decoration: line-through;
-  text-decoration-thickness: 15%;
-}
-.todoUncheck {
-  text-decoration: none;
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #22cc88;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
