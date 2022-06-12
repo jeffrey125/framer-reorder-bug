@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+/* 
+DARK BG - #060e14
+DARK BG Primary - #13293b
+DARK BG Pallete1 - #143831
+FONT COLOR - #060e14
+*/
+
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.lightBG {
+  background-image: url('./assets/svg-light-bg.svg');
+}
+.darkBG {
+  background-image: url('./assets/svg-dark-bg.svg');
+}
+
+.todoCheck {
+  text-decoration: line-through;
+  text-decoration-thickness: 15%;
+}
+.todoUncheck {
+  text-decoration: none;
+}
